@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>stay-organised</title>
+  <link rel="stylesheet" href="todo_styles.css">
+</head>
+<body>
+    <h1>WELCOME TO ORG@NISE</h1>
+    <p>Empower Your Day, One Task at a Time!</p>
+  <div class="container">
+    <h1>Todo List</h1>
+    <form id="todo-form">
+        <div class="input-container">
+            <input type="text" id="task-input" placeholder="Add new task">
+            <input type="text" id="description-input" placeholder="Description">
+        </div>
+      <button type="submit">Add Task</button>
+    </form>
+    <div class="tasks-container">
+      <h2>Uncompleted Tasks</h2>
+      <ul id="task-list"></ul>
+    </div>
+    <div class="tasks-container">
+      <h2>Completed Tasks</h2>
+      <ul id="completed-task-list"></ul>
+    </div>
+  </div>
+  <script src="todo_script.js"></script>
+</body>
+</html>
