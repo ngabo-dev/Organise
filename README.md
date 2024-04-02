@@ -43,5 +43,4 @@ Open your web browser and visit http://localhost:8080 to access the application 
 
 
 
-This README.md provides instructions specifically for containerizing HTML, CSS, and JavaScript files using Docker and running the containerized application locally. Adjust the instructions as needed for your project.
-
+This README.md provides instructions specifically for containerizing HTML, CSS, and JavaScript files using Docker and running the containerized application locally. So anyone can adjust the instructions successfuly
